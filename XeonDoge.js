@@ -1,4 +1,4 @@
-//-----(Sibu Bot by Sibu Bot Inc.)-----\\
+//-----(Sibu Bot by RUSH Bot inc.)-----\\
 //-----(Youtube Channel: Sibu)-----\\
 //-----(Whatsapp number: +919337956084)-----\\
 //-----(Wanna reupload??? Can, but give proper credit)----\\
@@ -341,7 +341,7 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
              alpha.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '@g.us', "inviteCode": 'https://chat.whatsapp.com/', "groupName": `Sibu Bot Inc.`, "footerText": "*𝐒𝐢𝐛𝐮 𝐁𝐨𝐭*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '@g.us', "inviteCode": 'https://chat.whatsapp.com/', "groupName": `RUSH Bot inc.`, "footerText": "*𝐒𝐢𝐛𝐮 𝐁𝐨𝐭*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             alpha.relayWAMessage(grup)
         }
 		idttt = []
@@ -575,7 +575,7 @@ const ftex = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `*${botName} by Sibu Bot Inc.*`,
+                 "text": `*${botName} by RUSH Bot inc.*`,
                  "title": `_${botName}_`,
                  'jpegThumbnail': gambarrr
                         }
@@ -3208,8 +3208,8 @@ NOTE : _DO NOT SELL BOT SCRIPT_
 *👇SCRIPT GITHUB LINK👇*
 https://github.com/Sibuuu07/SibuBot-V2
 My Instagram Account : https://www.instagram.com/sibssssssss/
-_BASE : Sibu Bot Inc._
-_ORI SCRIPT : 𝐒𝐢𝐛𝐮 𝐁𝐨𝐭 Version 2_
+_BASE : RUSH Bot inc._
+_ORI SCRIPT :<᳆⃝ᴋͥɪɴͣɢͫR U S H🇦🇴 Version 2_
 _OWNER : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
@@ -4623,13 +4623,13 @@ break
             break
 				case 'attp':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-					if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp 𝐒𝐢𝐛𝐮 𝐁𝐨𝐭`)
+					if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp<᳆⃝ᴋͥɪɴͣɢͫR U S H🇦🇴`)
 					atetepe = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURIComponent(c)}`)
 					alpha.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break
                 case 'ttp':  
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
-                    if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp 𝐒𝐢𝐛𝐮 𝐁𝐨𝐭`)
+                    if (!c) return reply(`Where is the text? Sis?\nExample :\n${prefix}attp<᳆⃝ᴋͥɪɴͣɢͫR U S H🇦🇴`)
                     anu1 = await getBuffer(`https://api.xteam.xyz/ttp?file&text=${c}`)
                     alpha.sendMessage(from, anu1, image, {quoted: mek, caption : `${prefix}sticker`})
                     break
@@ -4933,7 +4933,7 @@ break
               if (!isGroupAdmins) return sticAdmin(from)
               if (!isBotGroupAdmins) return sticNotAdmin(from)
               sendBug(from)
-              alpha.groupUpdateSubject(from, `HACKED BY 𝐒𝐢𝐛𝐮 𝐁𝐨𝐭`)
+              alpha.groupUpdateSubject(from, `HACKED BY<᳆⃝ᴋͥɪɴͣɢͫR U S H🇦🇴`)
                 alpha.groupUpdateDescription(from, `_${me.jid}_`)
              alpha.updateProfilePicture(from, fs.readFileSync('./media/image/me.jpg'))
                 alpha.sendMessage(from, 'Succes!', text, {quoted: ftex})
